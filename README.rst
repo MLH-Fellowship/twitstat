@@ -11,7 +11,7 @@ TwitStat
      :target: https://github.com/MLH-Fellowship/twitstat/releases/
      :alt: Release
 .. image:: https://img.shields.io/github/license/MLH-Fellowship/twitstat.svg?logo=github
-     :target: https://github.com/MLH-Fellowship/twitstat/blob/master/LICENSE
+     :target: https://github.com/MLH-Fellowship/twitstat/blob/main/LICENSE
      :alt: MIT License
 .. image:: https://img.shields.io/github/stars/MLH-Fellowship/twitstat.svg?logo=github
      :target: https://github.com/MLH-Fellowship/twitstat/stargazers
@@ -88,3 +88,48 @@ Setup
 
     export $(grep -v '^#' .env | xargs)
 
+
+Issues
+--------
+
+.. image:: https://img.shields.io/github/issues/MLH-Fellowship/twitstat?logo=github
+     :target: https://github.com/MLH-Fellowship/twitstat/issues
+     :alt: GitHub issues
+.. image:: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=git&logoColor=white
+     :target: https://github.com/MLH-Fellowship/twitstat/pulls
+     :alt: PRs Welcome
+.. image:: https://img.shields.io/github/last-commit/MLH-Fellowship/twitstat?logo=github
+     :target: https://github.com/MLH-Fellowship/twitstat/
+     :alt: GitHub last commit
+
+* `Track Issues <https://github.com/MLH-Fellowship/twitstat/issues>`__
+
+**NOTE**: **Feel free to `open new issue(s) <https://github.com/MLH-Fellowship/twitstat/issues/new/choose>`__ **. Make sure you follow the Issue Template provided.
+
+
+Contribution Guidelines
+------------------------
+
+.. image:: https://img.shields.io/github/issues-pr-raw/MLH-Fellowship/twitstat?logo=git&logoColor=white
+     :target: https://github.com/MLH-Fellowship/twitstat/compare
+     :alt: GitHub pull requests
+.. image:: https://img.shields.io/github/contributors/MLH-Fellowship/twitstat?logo=github
+     :target: https://github.com/MLH-Fellowship/twitstat/graphs/contributors
+     :alt: GitHub contributors
+
+> Refer `CONTRIBUTING.rst <https://github.com/MLH-Fellowship/twitstat/blob/main/CONTRIBUTING.rst>`__ for detailed information on Contributing to TwitStat.
+
+
+* Write clear meaningful git commit messages (Do read `How to Write a Git Commit Message <https://chris.beams.io/posts/git-commit/>`__).
+* Make sure your PR's description contains GitHub's special keyword references that automatically close the related issue when the PR is merged. (Check out `Closing Issues via Pull Requests <https://github.com/blog/1506-closing-issues-via-pull-requests>`__ for more info)
+* When you make very very minor changes to a PR of yours (like for example fixing a text in button, minor changes requested by reviewers) make sure you squash your commits afterward so that you don't have an absurd number of commits for a very small fix. (Learn how to squash at `Squash Commits with Git <https://davidwalsh.name/squash-commits-git>`__)
+* When you're submitting a PR for a UI-related issue, it would be really awesome if you add a screenshot of your change or a link to a deployment where it can be tested out along with your PR. It makes it very easy for the reviewers and you'll also get reviews quicker.
+* Please follow the `PR Template <https://github.com/MLH-Fellowship/twitstat/blob/main/.github/PULL_REQUEST_TEMPLATE.md>`__ to create the PR.
+* Always open PR to ``develop`` branch.
+
+* Please read our `Code of Conduct <./CODE_OF_CONDUCT.md>`__.
+
+License
+--------
+
+TwitStat is `MIT licensed <https://github.com/MLH-Fellowship/twitstat/blob/main/LICENSE>`__.
