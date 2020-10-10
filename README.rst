@@ -102,9 +102,13 @@ Issues
      :target: https://github.com/MLH-Fellowship/twitstat/
      :alt: GitHub last commit
 
-* `Track Issues <https://github.com/MLH-Fellowship/twitstat/issues>`__
+.. class:: bold
 
-**NOTE**: **Feel free to `open new issue(s) <https://github.com/MLH-Fellowship/twitstat/issues/new/choose>`__ **. Make sure you follow the Issue Template provided.
+    `Track Issues <https://github.com/MLH-Fellowship/twitstat/issues>`__ on GitHub
+
+.. class:: bold
+
+    Feel free to `open new issue(s) <https://github.com/MLH-Fellowship/twitstat/issues/new/choose>`__ . Make sure you follow the Issue Template provided.
 
 
 Contribution Guidelines
@@ -117,7 +121,9 @@ Contribution Guidelines
      :target: https://github.com/MLH-Fellowship/twitstat/graphs/contributors
      :alt: GitHub contributors
 
-> Refer `CONTRIBUTING.rst <https://github.com/MLH-Fellowship/twitstat/blob/main/CONTRIBUTING.rst>`__ for detailed information on Contributing to TwitStat.
+.. class:: bold
+
+    Refer `CONTRIBUTING.rst <https://github.com/MLH-Fellowship/twitstat/blob/main/CONTRIBUTING.rst>`__ for detailed information on Contributing to TwitStat.
 
 
 * Write clear meaningful git commit messages (Do read `How to Write a Git Commit Message <https://chris.beams.io/posts/git-commit/>`__).
