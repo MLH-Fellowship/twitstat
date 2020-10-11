@@ -91,6 +91,12 @@ Setup
 
     export $(grep -v '^#' .env | xargs)
 
+* Running locally
+
+.. code-block:: bash
+
+    flask run
+
 
 Issues
 --------
