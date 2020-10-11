@@ -5,6 +5,7 @@ import re
 import string
 import nltk
 import pandas as pd
+from textblob import TextBlob
 from sklearn.cluster import DBSCAN
 from sklearn.feature_extraction.text import TfidfVectorizer
 
@@ -20,6 +21,8 @@ class Results:
         """Initialize final results of the analysis"""
         self.clusters_count = df.clusters.value_counts()
         self.df_results = df.groupby(["clusters"]).max().reset_index()
+        self.df_results["sentiment"] = self.df_results["tweet_clean"].apply(lambda y: analyse_sentiment(y))
+
         print("Number of tweets per cluster: \n{}".format(self.clusters_count))
         print("Top cluster tweets: \n{}".format(self.df_results.to_string()))
 
@@ -110,6 +113,18 @@ def cluster(esp):
 
     df["clusters"] = db.labels_
     print("Number of unique clusters generated: {}".format(df.clusters.nunique()))
+
+
+def analyse_sentiment(tweet):
+    """Analyses the sentiment of the given tweet"""
+    analysis = TextBlob(tweet)
+    sentiment = analysis.sentiment.polarity
+    if sentiment > 0:
+        return "positive"
+    elif sentiment == 0:
+        return "neutral"
+    else:
+        return "negative"
 
 
 def stream(api, find_word):
