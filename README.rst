@@ -10,6 +10,9 @@ TwitStat
 .. image:: https://img.shields.io/github/v/release/MLH-Fellowship/twitstat.svg
      :target: https://github.com/MLH-Fellowship/twitstat/releases/
      :alt: Release
+.. image:: https://readthedocs.org/projects/twitstat/badge/?version=latest
+    :target: https://twitstat.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
 .. image:: https://img.shields.io/github/license/MLH-Fellowship/twitstat.svg?logo=github
      :target: https://github.com/MLH-Fellowship/twitstat/blob/main/LICENSE
      :alt: MIT License
@@ -87,6 +90,12 @@ Setup
 .. code-block:: bash
 
     export $(grep -v '^#' .env | xargs)
+
+* Running locally
+
+.. code-block:: bash
+
+    flask run
 
 
 Issues
