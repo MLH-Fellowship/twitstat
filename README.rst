@@ -28,6 +28,8 @@ TwitStat
 :License: MIT
 :Pycharm: Yes
 
+Twitstat is a simple web application that analyses twitter data to provide interesting insights into trending hashtags
+and topics. It cleverly clusters and charts data to ease the process of better understanding trends around the world!
 
 Basic Project Structure
 -----------------------
