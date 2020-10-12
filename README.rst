@@ -149,7 +149,7 @@ Contribution Guidelines
 Contributors
 -------------
 
-Made with love by `Aditya Raman <https://github.com/ramanaditya>`_ and `Garima Singh <https://github.com/grimmmyshini>`_!
+Made with :heart: by `Aditya Raman <https://github.com/ramanaditya>`_ and `Garima Singh <https://github.com/grimmmyshini>`_!
 
 
 License
