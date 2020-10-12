@@ -51,7 +51,7 @@ class Twitter:
             ).items():
                 tweets = dict()
                 tweets["id"] = tweet.id
-                tweets["tweet"] = tweet.text
+                tweets["tweets"] = tweet.text
                 tweets["interactions"] = tweet.favorite_count + tweet.retweet_count
 
                 tweets_list.append(tweets)
