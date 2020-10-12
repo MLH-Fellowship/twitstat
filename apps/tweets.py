@@ -57,6 +57,9 @@ class Twitter:
                 tweets_list.append(tweets)
 
                 tweet_counter += 1
+                
+                if tweet_counter > 1000:
+                    break
 
         return tweets_list
 

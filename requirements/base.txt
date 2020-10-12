@@ -12,6 +12,11 @@ Jinja2==2.11.2 # https://github.com/pallets/jinja
 MarkupSafe==1.1.1 # https://github.com/pallets/markupsafe
 Werkzeug==1.0.1 # https://github.com/pallets/werkzeug
 
+# Celery
+# ------------------------------------------------------------------------------
+celery==5.0.0 # https://github.com/celery/celery
+redis==3.5.3 # https://github.com/redis/redis
+
 # Others
 # ------------------------------------------------------------------------------
 tweepy==3.9.0  # https://github.com/tweepy/tweepy
@@ -20,3 +25,7 @@ nltk==3.5  # https://github.com/nltk/nltk
 pandas==1.1.3  # https://github.com/pandas-dev/pandas
 scikit-learn==0.23.2  # https://github.com/scikit-learn/scikit-learn
 textblob==0.15.3  # https://github.com/sloria/TextBlob
+
+# Logging
+# ------------------------------------------------------------------------------
+loguru==0.5.3
