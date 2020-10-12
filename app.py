@@ -37,3 +37,6 @@ def analyze_tweets():
     response["cluserts_count"] = clusters_count.to_json()
     response["result"] = result
     return jsonify(response)
+
+if __name__ == "__main__":
+    app.run()
