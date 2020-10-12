@@ -6,10 +6,17 @@
 Welcome to twitstat's documentation!
 ====================================
 
+Contents:
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
+   about
+   scrape
+   nlp
+   future
+   resources
+   contributors
 
 
 Indices and tables
