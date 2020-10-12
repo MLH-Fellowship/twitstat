@@ -146,6 +146,12 @@ Contribution Guidelines
 
 * Please read our `Code of Conduct <./CODE_OF_CONDUCT.md>`__.
 
+Contributors
+-------------
+
+Made with :heart: by `Aditya Raman <https://github.com/ramanaditya>`_ and `Garima Singh <https://github.com/grimmmyshini>`_!
+
+
 License
 --------
 
