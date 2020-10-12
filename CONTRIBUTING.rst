@@ -107,6 +107,6 @@ License
 
 **Any contributions you make will be under the MIT Software License**
 
-In short, when you submit code changes, your submissions are understood to be under the same [MIT License](https://github.com/MLH-Fellowship/twitstat/blob/main/LICENSE) that covers the project. Feel free to contact the maintainers if that's a concern.
+In short, when you submit code changes, your submissions are understood to be under the same `MIT License <https://github.com/MLH-Fellowship/twitstat/blob/main/LICENSE>`__ that covers the project. Feel free to contact the maintainers if that's a concern.
 
-By contributing, you agree that your contributions will be licensed under its [MIT License](https://github.com/MLH-Fellowship/twitstat/blob/main/LICENSE).
+By contributing, you agree that your contributions will be licensed under its `MIT License <https://github.com/MLH-Fellowship/twitstat/blob/main/LICENSE>`__.
