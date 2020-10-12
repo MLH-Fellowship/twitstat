@@ -14,6 +14,8 @@ Contents:
    about
    scrape
    nlp
+   future
+   resources
    contributors
 
 
