@@ -26,6 +26,11 @@ jobs:
         platform: python
         platform-version: '3.8'
         
+    - name: Setting up Virtual Environment
+      run: |
+        python3 -m venv venv
+        source venv/bin/activate
+        
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
