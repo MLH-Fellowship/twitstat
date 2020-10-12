@@ -31,6 +31,8 @@ TwitStat
 :License: MIT
 :Pycharm: Yes
 
+Twitstat is a simple web application that analyses twitter data to provide interesting insights into trending hashtags
+and topics. It cleverly clusters and charts data to ease the process of better understanding trends around the world!
 
 Basic Project Structure
 -----------------------
@@ -143,6 +145,12 @@ Contribution Guidelines
 * Always open PR to ``develop`` branch.
 
 * Please read our `Code of Conduct <./CODE_OF_CONDUCT.md>`__.
+
+Contributors
+-------------
+
+Made with :heart: by `Aditya Raman <https://github.com/ramanaditya>`_ and `Garima Singh <https://github.com/grimmmyshini>`_!
+
 
 License
 --------
