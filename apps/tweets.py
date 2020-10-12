@@ -6,6 +6,7 @@ import tweepy
 class Twitter:
     def __init__(self):
 
+        # Authorization
         self.TWITTER_CONSUMER_API_KEY = os.getenv("TWITTER_CONSUMER_API_KEY")
         self.TWITTER_CONSUMER_SECRET_KEY = os.getenv("TWITTER_CONSUMER_SECRET_KEY")
         self.TWITTER_ACCESS_TOKEN = os.getenv("TWITTER_ACCESS_TOKEN")
